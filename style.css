@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+    background: linear-gradient(-45deg, #d1cda8, #79ff74, #eaccf0);
 }
 
 .music-container{
@@ -21,7 +21,7 @@ body{
 .music-body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(62, 112, 28, 0.37);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     outline: none;
@@ -36,7 +36,7 @@ body{
     border: 0;
     background: #eee6fc;
     font-size: 0.9rem;
-    color: #7D30FA;
+    color: #f8854f;
     height: 2.188rem;
     width: 2.188rem;
     border-radius: 50%;
@@ -57,7 +57,7 @@ body{
     z-index: 4;
     position: absolute;
     background:#ffff;
-    border: 2px solid #eee6fc;
+    border: 2px solid #9f9ea1;
     height: 2.188rem;
     width: 17.5rem;
     left: 0;
@@ -73,7 +73,7 @@ body{
     position: relative;
     width: 100%;
     height: 0.2rem;
-    background: #eee6fc;
+    background: #242227;
 }
 
 .volume-slider{
@@ -88,7 +88,7 @@ body{
 	display: block;
 	width: 0;
 	height: inherit;
-	background-color: #7D30FA;
+	background-color: #333138;
 }
 
 .volume-slider .bar{
@@ -110,7 +110,7 @@ body{
 	-webkit-appearance: none;
 	height: 0.7rem;
     width: 0.7rem;
-	background-color: #7D30FA;
+	background-color: #2c203f;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -144,7 +144,7 @@ body{
     margin-top: 1rem;
     letter-spacing: 0.02rem;
     color: rgb(117, 116, 116);
-    color: #7D30FA;
+    color: #fab8d4;
 }
 
 .music-progress{
@@ -164,7 +164,7 @@ body{
 }
 
 .progress{
-    background: #7D30FA;
+    background: #2b2733;
     width: 0;
     height: 100%;
     position: relative;
@@ -186,7 +186,7 @@ body{
 
 .duration{
     display: flex;
-    color: #7D30FA;
+    color: #362c46;
     justify-content: space-between;
 }
 
@@ -205,7 +205,7 @@ body{
     outline: 0;
     font-size: 2rem;
     background: none;
-    color: #7D30FA;
+    color: #b40571;
     cursor: pointer;
 }
 
@@ -217,13 +217,18 @@ body{
 .playpause{
     font-size: 1.7rem;
     /* position: absolute; */
-    background: #7D30FA;
+    background: #b40571;
     height: 4.5rem;
     width: 4.5rem;
     color: #fff;
     border-radius: 50%;
     display: grid;
     place-items: center;
+}
+
+.playpause:hover{
+    color: #5717be;
+    background-color: #5717be;
 }
 
 .fa-play{
